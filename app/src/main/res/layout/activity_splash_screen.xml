@@ -19,6 +19,7 @@
             android:layout_above="@+id/splash_screen_logo"
             android:layout_centerHorizontal="true"
             android:text="@string/developed_by"
+            android:visibility="gone"
             android:textColor="@color/splash_screen_text_color"
             android:textSize="@dimen/splash_screen_text_size"
             android:textStyle="bold" />
@@ -26,7 +27,7 @@
         <ImageView
             android:id="@+id/splash_screen_logo"
             android:layout_width="@dimen/splash_screen_logo_width"
-            android:layout_height="@dimen/splash_screen_logo_height"
+            android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:layout_marginTop="@dimen/splash_screen_logo_margin_top"
             android:src="@drawable/samsung_logo" />

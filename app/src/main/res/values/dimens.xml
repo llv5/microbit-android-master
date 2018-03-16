@@ -123,8 +123,8 @@
     <dimen name="splash_screen_text_size">20dp</dimen>
     <dimen name="splash_screen_gif_image_layout_padding">32dp</dimen>
     <dimen name="splash_screen_logo_margin_top">16dp</dimen>
-    <dimen name="splash_screen_logo_width">200dp</dimen>
-    <dimen name="splash_screen_logo_height">32dp</dimen>
+    <dimen name="splash_screen_logo_width">300dp</dimen>
+    <dimen name="splash_screen_logo_height">100dp</dimen>
 
 
 </resources>

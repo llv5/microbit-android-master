@@ -41,7 +41,7 @@ public class ProjectsHelper {
 
     public static int findProjectssAndPopulate(HashMap<String, String> prettyFileNameMap, List<Project> list) {
         File sdcardDownloads = HEX_FILE_DIR;
-        Log.d("MicroBit", "Searching files in " + sdcardDownloads.getAbsolutePath());
+        Log.i("MicroBit", "Searching files in " + sdcardDownloads.getAbsolutePath());
 
         int totalPrograms = 0;
         if(sdcardDownloads.exists()) {

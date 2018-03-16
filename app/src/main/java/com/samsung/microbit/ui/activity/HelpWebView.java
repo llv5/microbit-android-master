@@ -38,11 +38,8 @@ public class HelpWebView extends Activity {
 
         setContentView(R.layout.activity_help_web_view);
         webView = (WebView) findViewById(R.id.generalView);
-
         webView.setLayerType(View.LAYER_TYPE_HARDWARE, null);
-
         WebSettings webSettings = webView.getSettings();
-
         webSettings.setJavaScriptCanOpenWindowsAutomatically(true);
         webSettings.setJavaScriptEnabled(true);
         webSettings.setUseWideViewPort(true);

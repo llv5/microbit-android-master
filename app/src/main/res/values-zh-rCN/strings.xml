@@ -1,4 +1,7 @@
-<!--
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
   Copyright 2012 The Android Open Source Project
 
   Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,60 +17,59 @@
   limitations under the License.
   -->
 
-<resources>
 
     <string name="app_name">micro:bit</string>
     <string name="app_name_without_colon">microbit</string>
     <string name="home_activity_name"></string>
     <string name="poweredBy">Powered by\r\n SAMSUNG</string>
     <string name="copyright">Copyright © 1995&#8211;2015 SAMSUNG</string>
-    <string name="developed_by">Developed by</string>
+    <string name="developed_by">开发的</string>
 
     <!-- External links -->
-    <string name="create_code_url" translatable="false">http://microbit.org/code</string>
-    <string name="discover_url" translatable="false">http://microbit.org/</string>
-    <string name="my_scripts_url" translatable="false">https://www.microbit.co.uk/app/</string>
-    <string name="privacy_policy_url" translatable="false">http://microbit.org/privacy</string>
-    <string name="terms_of_use_url" translatable="false">http://microbit.org/terms-of-use</string>
-    <string name="about_url" translatable="false">http://microbit.org/about</string>
-    <string name="feedback_email_address" translatable="false">rohit.ail@samsung.com</string>
+    <string name="create_code_url" translatable="true">http://microbit.org/code</string>
+    <string name="discover_url" translatable="true">http://microbit.org/</string>
+    <string name="my_scripts_url" translatable="true">https://www.microbit.co.uk/app/</string>
+    <string name="privacy_policy_url" translatable="true">http://microbit.org/privacy</string>
+    <string name="terms_of_use_url" translatable="true">http://microbit.org/terms-of-use</string>
+    <string name="about_url" translatable="true">http://microbit.org/about</string>
+    <string name="feedback_email_address" translatable="true">rohit.ail@samsung.com</string>
 
 
-    <string name="user_agent" translatable="false">SamsungBrowser/microbit Profile/OTA-DFU1.0</string>
+    <string name="user_agent" translatable="true">SamsungBrowser/microbit Profile/OTA-DFU1.0</string>
 
-    <string name="search_BLE_activity">Search micro:bit</string>
-    <string name="device_details">Device_details</string>
+    <string name="search_BLE_activity">搜索micro:bit</string>
+    <string name="device_details">设备详细资料</string>
     <string name="dummy_section_text" formatted="false">Section %1d is just a dummy section.</string>
-    <string name="ble_not_supported">BLE is not supported</string>
-    <string name="phase1_complete_ok">Phase 1 completed. press button 1 followed by button on screen</string>
-    <string name="phase2_complete_ok">Phase 2 completed. Device should be flashed</string>
-    <string name="phase1_complete_not_ok">Device not found or in right mode or connection error</string>
+    <string name="ble_not_supported">蓝牙不支持</string>
+    <string name="phase1_complete_ok">第一阶段完成。按下按钮1，按下屏幕上的按钮。</string>
+    <string name="phase2_complete_ok">第二阶段完成。设备应该闪烁。</string>
+    <string name="phase1_complete_not_ok">设备未找到或在正确的模式或连接错误。</string>
 
-    <string name="downloading_file">Downloading file</string>
+    <string name="downloading_file">正在下载文件</string>
 
-    <string name="label_data">Data:</string>
-    <string name="label_device_address">Device address:</string>
-    <string name="label_state">State:</string>
-    <string name="no_data">No data</string>
-    <string name="connected">Connected</string>
-    <string name="disconnected">Disconnected</string>
-    <string name="title_devices">micro:bit Device Scan</string>
-    <string name="title_activity_ledgrid">Find micro:bit</string>
-    <string name="title_activity_connect">Connect</string>
-    <string name="title_activity_gamepad">GamePad</string>
-    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
-    <string name="microbit_not_found">micro:bit not found. Please search.</string>
-    <string name="microbit_found">Use existing micro:bit ?</string>
-    <string name="error_bluetooth_not_enabled">Bluetooth not enabled.</string>
-    <string name="devices_bluetooth_not_enabled">Click to enable Bluetooth.</string>
-    <string name="devices_initiate_process">Click to start.</string>
-    <string name="devices_find_microbit">Search</string>
-    <string name="devices_generate_code">Click to generate code.</string>
-    <string name="devices_scanning">Looking for micro:bit, click to stop.</string>
-    <string name="devices_ble_unsupported">BLE Not supported on your device</string>
-    <string name="unknown_device">Unknown device</string>
-    <string name="unknown_characteristic">Unknown characteristic</string>
-    <string name="unknown_service">Unknown service</string>
+    <string name="label_data">数据:</string>
+    <string name="label_device_address">设备地址:</string>
+    <string name="label_state">状态:</string>
+    <string name="no_data">无数据</string>
+    <string name="connected">已连接</string>
+    <string name="disconnected">断开连接</string>
+    <string name="title_devices">micro:bit设备搜索</string>
+    <string name="title_activity_ledgrid">发现micro:bit</string>
+    <string name="title_activity_connect">连接</string>
+    <string name="title_activity_gamepad">手柄</string>
+    <string name="error_bluetooth_not_supported">蓝牙不支持.</string>
+    <string name="microbit_not_found">micro:bit没发现.请搜索.</string>
+    <string name="microbit_found">使用现有的micro:bit?</string>
+    <string name="error_bluetooth_not_enabled">蓝牙没有打开.</string>
+    <string name="devices_bluetooth_not_enabled">点击启动蓝牙.</string>
+    <string name="devices_initiate_process">点击开始.</string>
+    <string name="devices_find_microbit">搜索</string>
+    <string name="devices_generate_code">点击生成代码.</string>
+    <string name="devices_scanning">寻找micro:bit,点击停止.</string>
+    <string name="devices_ble_unsupported">你的设备不支持BLE蓝牙</string>
+    <string name="unknown_device">未知设备</string>
+    <string name="unknown_characteristic">未知特性</string>
+    <string name="unknown_service">未知服务</string>
 
     <string name="pattern_to_flash">Enter the pattern displayed on your micro:bit to flash</string>
     <string name="pattern_to_pair">Enter the pattern displayed on your micro:bit to pair</string>
@@ -91,8 +93,8 @@
     <string name="flashing_progress_message">Please do not interact with micro:bit before flashing process is complete</string>
     <string name="flashing_success_message">You have successfully downloaded program to micro:bit</string>
     <string name="flashing_success_title">Flashing successful</string>
-    <string name="flashing_error">Error</string>
-    <string name="flashing_failed_no_microbit">At least one micro:bit must be paired before flashing </string>
+    <string name="flashing_error">错误</string>
+    <string name="flashing_failed_no_microbit">至少需要一个之前配好对的micro:bit</string>
     <string name="flashing_tip_title">Put the micro:bit in Flashing mode</string>
     <string name="pairing_tip">Hold buttons A and B down and then press RESET.\n Wait for "BLUEZONE" to appear on micro:bit before releasing buttons </string>
     <string name="flash_start_message">Do you want to flash the program to %s ?</string>
@@ -106,14 +108,14 @@
     <string name="menu_refresh">Refresh</string>
     <string name="action_settings">Settings</string>
 
-    <string name="menu_main_menu">Menu</string>
+    <string name="menu_main_menu">目录</string>
     <string name="menu_main_explore">Explore</string>
-    <string name="menu_main_about">About</string>
-    <string name="menu_main_help">Help</string>
-    <string name="menu_main_privacy_cookies">Privacy &amp; Cookies</string>
-    <string name="menu_main_terms_conditions">Terms &amp; Conditions</string>
-    <string name="menu_main_send_feedback">Send us your feedback</string>
-    <string name="menu_main_share_statistics">Share statistics</string>
+    <string name="menu_main_about">关于</string>
+    <string name="menu_main_help">帮助</string>
+    <string name="menu_main_privacy_cookies">隐私 &amp; Cookies</string>
+    <string name="menu_main_terms_conditions">条款 &amp; 条件</string>
+    <string name="menu_main_send_feedback">寄给我们你的反馈</string>
+    <string name="menu_main_share_statistics">分享数据</string>
 
     <!-- Camera items -->
     <string name="picture">Picture</string>
@@ -141,19 +143,19 @@
     <string name="alert">Alert&#8230;</string>
 
     <!-- Connect Activity -->
-    <string name="previous_devices">Connect previously paired micro:bit</string>
+    <string name="previous_devices">连接已配对好的micro:bit</string>
     <string name="desc_previous_devices">No previously paired micro:bits</string>
-    <string name="new_devices_pattern_null">Enter the pattern</string>
+    <string name="new_devices_pattern_null">进入模式</string>
     <string name="new_devices">Connect to a new device</string>
     <string name="name_device">Name device</string>
     <string name="name_empty_error">Please enter device name.</string>
     <string name="connect">Connect</string>
     <string name="gamepad">Gamepad</string>
-    <string name="connectNew">Pair a new micro:bit</string>
-    <string name="connect_tip_title">How to pair your micro:bit</string>
+    <string name="connectNew">配对一个新的micro:bit</string>
+    <string name="connect_tip_title">如何配对你的micro:bit</string>
     <string name="step_connect_tip_text_step_three">Step 3</string>
     <string name="step_connect_tip_text_step_four_text">When you see the success message, \npress RESET and you\'re done!</string>
-    <string name="connect_tip_text_step">Step 1</string>
+    <string name="connect_tip_text_step">第一步</string>
     <string name="step_connect_tip_text_step_four">Step 4</string>
     <string name="desc_step_connect_tip_text_step_four_text">When you see the success message, press RESET and you\'re done!</string>
     <string name="desc_step_connect_tip_text_step_three">Step 3</string>
@@ -164,18 +166,18 @@
     <string name="searching_microbit_found_message">Open your notification drawer \nand enter your Pin</string>
     <string name="searching_microbit_found_message_one_line">Open your notification drawer and enter your Pin</string>
     <string name="desc_searching_microbit_found_message">Open your notification drawer and enter your Pin</string>
-    <string name="step_connect_tip_text_step_two">Step 2</string>
-    <string name="connect_tip_text">Hold the A and B buttons, then PRESS RESET</string>
+    <string name="step_connect_tip_text_step_two">第二步</string>
+    <string name="connect_tip_text">按住A和B按钮，然后按复位。</string>
     <string name="desc_connect_tip_text">Hold the A and B buttons, then PRESS RESET</string>
     <string name="desc_connect_tip_text_step">Step one</string>
     <string name="connect_tip_text_step_text">Hold the A and B buttons,\nthen PRESS RESET</string>
     <string name="desc_connect_tip_text_step_two">Step two</string>
     <string name="connect_tip_text_step_two_text">When asked, enter your PIP \n(personal identification pattern) </string>
     <string name="desc_connect_tip_text_step_two_text">When asked, enter your personal identification pattern </string>
-    <string name="step_enter_pattern_tip_text">Step 2</string>
-    <string name="enter_pattern_tip_text_one_line">Copy the pattern from your micro:bit onto this grid</string>
+    <string name="step_enter_pattern_tip_text">第二步</string>
+    <string name="enter_pattern_tip_text_one_line">将micro:bit中显示的图案设置到这个网格中</string>
     <string name="desc_enter_pattern_tip_step_two">Step two</string>
-    <string name="desc_enter_pattern_tip_text">Copy the pattern from your micro:bit onto this grid</string>
+    <string name="desc_enter_pattern_tip_text">将micro:bit中显示的图案设置到这个网格中</string>
     <string name="searching_tip_text_instructions">(you only have 30 seconds)</string>
     <string name="desc_searching_tip_text">You only have 30 seconds</string>
     <string name="desc_searching_tip_step_three">When asked for a PIN, press button A</string>
@@ -189,7 +191,7 @@
     <string name="pairing_msg_1">Found micro:bit</string>
 
     <!--Connect Popup messages -->
-    <string name="pairingErrorTitle">Error</string>
+    <string name="pairingErrorTitle">错误</string>
     <string name="timeOut">Timeout</string>
     <string name="pairingErrorMessage">We cannot find that micro:bit\nRetry?</string>
     <string name="pairing_successful_tip_message">Please press RESET button and you\'re done!</string>
@@ -203,13 +205,13 @@
     <string name="loading_page_msg">Please wait. Page is loading&#8230;</string>
 
     <!-- Popup message -->
-    <string name="delete_project_message">Are you sure you want to remove this file?\r\nThe file will be permanently removed from this application.</string>
-    <string name="delete_project_title">Delete project?</string>
+    <string name="delete_project_message">您确定要删除这个文件吗?\n该文件将永久的从这个应用程序中删除。</string>
+    <string name="delete_project_title">删除项目?</string>
     <string name="record_audio">Record Audio?</string>
     <string name="audio_recorder_notification">micro:bit Audio Recorder</string>
 
     <string name="create_new_project">Create\na new project</string>
-    <string name="my_scripts">My Scripts</string>
+    <string name="my_scripts">我的脚本</string>
 
     <string name="download_existing">Download Existing</string>
     <string name="downloading">Downloading&#8230;</string>
@@ -223,11 +225,11 @@
     <string name="projects">Projects</string>
     <string name="pair_my_device">Connect</string>
     <string name="connect_my_device">Connect</string>
-    <string name="flash">Flash</string>
+    <string name="flash">下载</string>
     <string name="view">View</string>
     <string name="no_projects">No projects found!</string>
     <string name="connected_to">Connected to</string>
-    <string name="not_connected">Not Connected</string>
+    <string name="not_connected">没有连接</string>
     <string name="micro_bit_reset_msg">Please reset your micro:bit and try again.</string>
     <string name="flashing_title">Flashing</string>
     <string name="pairing_title">Pairing</string>
@@ -267,10 +269,10 @@
 
     <string name="navigation_drawer_open">Open Menu</string>
     <string name="navigation_drawer_close">Close Menu</string>
-    <string name="create_code">Create Code</string>
-    <string name="flash_microbit">Flash</string>
-    <string name="connect_device">Connect</string>
-    <string name="discover">Discover</string>
+    <string name="create_code">创建脚本</string>
+    <string name="flash_microbit">下载</string>
+    <string name="connect_device">连接</string>
+    <string name="discover">发现</string>
 
     <string name="email_body" formatted="false">
         <![CDATA[
@@ -288,16 +290,16 @@
     <string name="content_description_toolbar_home">Open Menu</string>
     <string name="content_description_toolbar_logo">Micro:bit</string>
     <string name="manage_microbit_txt">To remove a paired micro:bit, \ngo to the bluetooth section \nin your device settings</string>
-    <string name="manage_microbit_txt_one_line">To remove a paired micro:bit, go to the bluetooth section in your device settings</string>
-    <string name="desc_manage_microbit_txt">To remove a paired micro:bit, go to the bluetooth section in your device settings</string>
-    <string name="desc_connect_microbit_problems_message">Having problems? Try the help page.</string>
-    <string name="connect_microbit_problems_message_two_lines">Having problems? \nTry the help page.</string>
-    <string name="connect_microbit_problems_message">Having problems? Try the help page.</string>
-    <string name="desc_manage_microbits">To remove a paired micro:bit, go to the bluetooth section in your device settings</string>
-    <string name="desc_manage_and_remove_microbits_label">How do I remove a paired micro:bit?</string>
+    <string name="manage_microbit_txt_one_line">要删除已配对的micro:bit,要在手机中的蓝牙界面进行删除</string>
+    <string name="desc_manage_microbit_txt">要删除已配对的micro:bit,要在手机中的蓝牙界面进行删除</string>
+    <string name="desc_connect_microbit_problems_message">遇到问题? 可以去帮助界面查看.</string>
+    <string name="connect_microbit_problems_message_two_lines">遇到问题? \n可以去帮助界面查看.</string>
+    <string name="connect_microbit_problems_message">遇到问题? 可以去帮助界面查看.</string>
+    <string name="desc_manage_microbits">要删除已配对的micro:bit,要在手机中的蓝牙界面进行删除</string>
+    <string name="desc_manage_and_remove_microbits_label">如何删除已配对的micro:bit?</string>
     <string name="subtitle_manage_and_remove_microbits_label">Follow the on-screen instructions to</string>
     <string name="desc_subtitle_manage_and_remove_microbits_label">Follow the on-screen instructions to</string>
-    <string name="manage_and_remove_microbit">How do I remove a paired micro:bit?</string>
+    <string name="manage_and_remove_microbit">如何删除已配对的micro:bit?</string>
     <string name="desc_homescreen_logo_img">Hello</string>
     <string name="desc_connect_btn">Connect</string>
     <string name="desc_flash_btn">Flash</string>
@@ -308,35 +310,35 @@
     <string name="desc_go_to_bluetooth_settings">Go to bluetooth settings</string>
     <string name="tv_go_to_bluetooth_Settings">Go to bluetooth settings</string>
     <string name="desc_connect_back_to_home_btn">Back to Menu</string>
-    <string name="nav_draw_menu">Menu</string>
-    <string name="nav_draw_about">About</string>
-    <string name="nav_draw_help">Help</string>
-    <string name="nav_draw_privacy_cookies"><![CDATA[Privacy & Cookies]]></string>
-    <string name="nav_draw_terms_conditions"><![CDATA[Terms & Conditions]]></string>
-    <string name="nav_draw_send_feedback">Send us your feedback</string>
-    <string name="nav_draw_share_statistics">Share Statistics</string>
-    <string name="txt_my_scripts_btn">My Scripts</string>
+    <string name="nav_draw_menu">菜单</string>
+    <string name="nav_draw_about">关于</string>
+    <string name="nav_draw_help">帮助</string>
+    <string name="nav_draw_privacy_cookies"><![CDATA[隐私 & Cookies]]></string>
+    <string name="nav_draw_terms_conditions"><![CDATA[条款 & 条件]]></string>
+    <string name="nav_draw_send_feedback">寄给我们你的反馈</string>
+    <string name="nav_draw_share_statistics">分享数据</string>
+    <string name="txt_my_scripts_btn">我的脚本</string>
     <string name="desc_nav_drawer_menu">Close Menu</string>
-    <string name="desc_share_statistics_description">This information will only be used to analyse and improve the services offered through this app. For information, see our privacy policy </string>
+    <string name="desc_share_statistics_description">此信息仅用于分析和改进通过本应用程序提供的服务。</string>
     <string name="txt_pair_btn">Pair</string>
-    <string name="txt_how_to_pair_next_btn">Next</string>
-    <string name="txt_cancel_btn">Cancel</string>
+    <string name="txt_how_to_pair_next_btn">下一步</string>
+    <string name="txt_cancel_btn">取消</string>
     <string name="desc_connection_status_flash_text">Micro:Bit connection status</string>
     <string name="desc_send_project_btn">Flash code to your Micro:bit</string>
     <string name="desc_delete_project_btn">Delete code</string>
     <string name="searching_tip_step_text">When asked for a PIN,\npress button A</string>
     <string name="searching_tip_step_text_one_line">When asked for a PIN, press button A</string>
-    <string name="desc_connect_pair_micro_bit">Pair a new micro:bit</string>
+    <string name="desc_connect_pair_micro_bit">配对一个新的micro:bit</string>
     <string name="most_recent_device_status">Most recently used micro:bit</string>
     <string name="device_connected_device_status">Currently connected micro:bit</string>
 
-    <string name="general_error_title">Error</string>
+    <string name="general_error_title">错误</string>
     <string name="general_error_msg">Application error. Please contact developer</string>
     <string name="pair_new_device_dialog_title">Pair a new Device?</string>
     <string name="pair_new_device_dialog_message">Pairing with a new device will remove any previously paired Mircobits.</string>
-    <string name="ok_button_label">OK</string>
+    <string name="ok_button_label">好的</string>
     <string name="toolbar_title">Menu</string>
-    <string name="step_enter_pattern_text">Step 2</string>
+    <string name="step_enter_pattern_text">第二步</string>
     <string name="popup_title">Title</string>
     <string name="pop_up_subtitle_text">Message A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Message</string>
 
@@ -344,13 +346,13 @@
 
 
     <!-- Strings for permissions-->
-    <string name="permissions_needed_title">More permission needed</string>
-    <string name="storage_permission_for_samples">We need storage permission to copy sample program files to your device. This will help you try your micro:bit straight away.\n Proceed?</string>
+    <string name="permissions_needed_title">需要更多的权限</string>
+    <string name="storage_permission_for_samples">我们需要存储权限来将样例程序文件复制到您的设备中。这将帮助你尝试你的micro：bit连接。\n 开始?</string>
     <string name="storage_permission_for_samples_error">No sample files will be installed.</string>
     <string name="storage_permission_for_programs">We need storage permission to list all the program files saved on your device.\n Proceed?</string>
     <string name="storage_permission_for_programs_error">Cannot display any program files.</string>
 
-    <string name="location_permission_pairing">We need location permission to search for and find your micro:bit.\n Proceed?</string>
+    <string name="location_permission_pairing">我们需要本地权限去搜索和发现你的micro:bit。\n 继续?</string>
     <string name="location_permission_error">Cannot pair new micro:bit without having location permission.</string>
 
     <string name="camera_permission">micro:bit is trying to launch Camera. We need Camera permissions to complete this action. \n Proceed?</string>
@@ -363,15 +365,14 @@
     <string name="telephony_permission">Connected micro:bit program needs to know the Incoming call status. We need Phone State permission to complete this action. \n Proceed?</string>
     <string name="sms_permission">Connected micro:bit program needs to know the Incoming SMS status. We need SMS permission to complete this action. NOTE: Application will not send any SMS. \n Proceed?</string>
     <string name="telephony_permission_error">Your connected micro:bit will not receive any Incoming call notification</string>
-    <string name="sms_permission_error">Your connected micro:bit will not receive any Incoming SMS notification</string>
-    <string name="bluetooth_pairing_internal_error">Bluetooth pairing error happened. Disconnecting now &#8230;</string>
+    <string name="sms_permission_error">您连接的micro：bit不会接收任何传入的短信通知。</string>
+    <string name="bluetooth_pairing_internal_error">蓝牙配对错误发生。现在断开 &#8230;</string>
 
-    <string name="samples_are_about_to_be_copied">Samples will now be copied to your device. You can check them out in the Flash section.</string>
-    <string name="reconnect_title">Reconnect</string>
-    <string name="reconnect_text">You\'ve been disconnected from the micro:bit board. Do you want to reconnect?</string>
-    <string name="reconnect_ok_button">Reconnect</string>
-    <string name="reset_microbit_because_of_hex_file_wrong">. Please press RESET button!</string>
-    <string name="thank_you">Thank you</string>
+    <string name="samples_are_about_to_be_copied">样品现在会被复制到你的设备上。你可以在Flash中查看。</string>
+    <string name="reconnect_title">重连</string>
+    <string name="reconnect_text">你已经与micro：bit扩展板断开连接了。你想重新连接吗?</string>
+    <string name="reconnect_ok_button">重连</string>
+    <string name="reset_microbit_because_of_hex_file_wrong">. 请按下重置按钮!</string>
+    <string name="thank_you">谢谢你</string>
 
 </resources>
-
